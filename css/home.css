@@ -1,0 +1,21 @@
+.carousel-tagline {
+  border-bottom: solid thin #ccc;
+  margin-top: 3px;
+}
+
+.carousel-company-name{
+  color: #999;
+}
+
+.owl-carousel {
+  margin-top: 2em;
+}
+
+.owl-carousel img {
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+.owl-carousel img:hover {
+  opacity: 0.6;
+}

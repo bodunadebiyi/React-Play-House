@@ -1,0 +1,108 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+  background-color: #e8e8e8;
+}
+.wrap {
+  margin-bottom: 4rem;
+}
+
+.container{
+  width: 95%;
+}
+
+.wrapper {
+  background-color: #fff;
+  border: solid thin #fff;
+  border-radius: 1rem 1rem 1rem 1rem;
+  padding-bottom: 2rem;
+}
+
+#button-frame {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+#stars-frame .well, #answer-frame .well {
+  height: 30rem;
+}
+
+#stars-frame .glyphicon-star {
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+
+#number-frame .number.-selected {
+  background-color: #e8e8e8;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+#number-frame .number.-submitted {
+  background-color: #aaddaa;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+#number-frame .number.-submitted:hover {
+   background-color: #aaddaa;
+}
+
+#number-frame .number.-selected:hover {
+   background-color: #e8e8e8;
+}
+
+#number-frame .number, #answer-frame span {
+  display: inline-block;
+  margin: 1rem;
+  width: 4rem;
+  text-align: center;
+  background-color: #bbb;
+  border-radius: 50%;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+#number-frame .number:hover {
+  background-color: #ccc;
+}
+
+.navbar-brand {
+  margin-top: -2rem;
+  margin-right: -2rem;
+}
+
+.navbar-brand, .navbar-header h1{
+  display: inline-block;
+}
+
+.navbar {
+  background-color: #222;
+  color: #eee;
+}
+
+.row h2 {
+  text-align: center;
+}
+
+.github-fetch-button {
+  margin-top: 0.4rem;
+}
+
+#github-card .card-list img {
+  margin-top: 1rem;
+}
+
+.card-list {
+  margin-top: 2rem;
+}
+
+.cards {
+  border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+  background-color: #e8e8e8;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+}

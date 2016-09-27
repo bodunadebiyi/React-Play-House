@@ -1,0 +1,51 @@
+.profile-body{
+  min-height: 11em;
+  border-top: solid thin #ccc;
+  border-bottom: solid thin #ccc;
+  margin: 2em 2em 2em 2em;
+  text-align: justify;
+  padding-top: 1.5em;
+}
+
+.profile-body p {
+  font-weight: 300;
+  font-size: 120%;
+}
+.profile-header h5{
+  color: #b8762e;
+}
+
+.edit-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#upload{
+  display: none;
+}
+
+.edit-field{
+  display: none;
+}
+
+.location-fields{
+  margin: 0 2em 0 2em;
+}
+
+.location-fields div{
+  padding: 0 0.4em 0 0;
+}
+
+.location-field div:nth-child(3){
+  margin-left: 0.3em;
+  margin-right: 0.2em;
+}
+
+.profile-body input{
+  margin-bottom:1em;
+}
+
+.profile-body h7{
+  display: inline;
+}

@@ -1,0 +1,37 @@
+.rating-body{
+  margin-top: 3em;
+  border-bottom: solid thin #ccc;
+}
+
+.rating-header > span {
+  margin-right: 30px;
+}
+
+.rating-header span:nth-child(2) {
+  font-weight: bold;
+}
+
+.rating-header{
+  padding: 0 0 2em 0;
+}
+
+.user-reviews section{
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: solid thin #eee;
+}
+
+.user-reviews section small {
+  color: #aaa;
+}
+
+.user-reviews section img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 0;
+  float:left;
+}
+
+.post-review {
+  margin-top: 2em;
+}

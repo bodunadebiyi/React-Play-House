@@ -1,0 +1,34 @@
+#settings-page{
+  padding: 2em 2em 2em 2em;
+  border: solid medium #ccc;
+  margin-top: 2em;
+}
+
+.row1{
+  border-bottom: solid thin #ddd;
+}
+
+.row2{
+  color: #888;
+}
+
+.settings-option{
+  margin-bottom: 3rem;
+}
+
+.fa-spinner {
+  color: #337ab7;
+}
+
+.fa-span {
+  display: none;
+}
+
+.row2 input{
+  border: 0;
+  border-bottom: solid medium #b8762e;
+}
+
+.row2 span:nth-child(2){
+  display: none;
+}

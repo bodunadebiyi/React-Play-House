@@ -1,0 +1,128 @@
+.img-thumbnail > img {
+  width:100px;
+  height: 100px;
+}
+
+.img-thumbnail{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width:100px;
+  height: 100px;
+  float: left;
+}
+
+.blog-thumbnail-body{
+  margin: 0 0 0 0;
+  padding: 0 0 0 3px;
+  width:80%;
+  float:left;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.blog-thumbnail-body h3{
+  margin: 0 0 3px 0;
+  padding: 0 0 0 0;
+  color: #b12930;
+}
+
+.blog-thumbnail-body a{
+  font-weight: 400;
+}
+
+.bloglist {
+  border: 1px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+  margin-bottom: 2em;
+}
+
+.bloglist:hover {
+  -webkit-box-shadow: 2px 2px 4px 0px rgba(189,187,189,1);
+  -moz-box-shadow: 2px 2px 4px 0px rgba(189,187,189,1);
+  box-shadow: 2px 2px 4px 0px rgba(189,187,189,1);
+}
+
+.breadcrumb {
+  background-color: #fff;
+  padding-left:0;
+  margin-left:0;
+  text-align: justify;
+}
+
+form{
+  text-align: justify;
+}
+
+.post-feature-image{
+  width: 100%;
+  background-color: #000;
+  height: 20em;
+  max-height: 20em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.post-feature-image > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.post-topic {
+  text-transform: uppercase;
+  color: #b12930;
+}
+
+.comments-link{
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin: 0;
+  position: absolute;
+  top: 0.9em;
+  right: 1.315em;
+}
+
+.comments-link a:hover {
+  background: #b12930;
+  color: #fff;
+  text-decoration: none;
+  border-color: transparent transparent transparent #b12930;
+}
+
+.comments-link a {
+  background: #eee;
+  color: #777;
+  display: inline-block;
+  min-width: 2em;
+  padding: 0.05em .1em;
+  text-align: center;
+  border-color: transparent transparent transparent #eee;
+}
+
+.comments-link a:before {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0px 10px 10px 10px;
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: .3em;
+}
+
+.post-body {
+  margin-bottom: 4em;
+}
+
+.post-date {
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  padding-top:5px;
+}
+
+.post-date span{
+  display: block;
+}

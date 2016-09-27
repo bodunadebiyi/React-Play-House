@@ -1,0 +1,83 @@
+.no-image-pane {
+  border: dashed medium #ddd;
+  padding: 3em 3em 3em 3em;
+  margin: 2em 1em 0 1em;
+}
+
+.image-preview{
+  width: 100%;
+  border: dashed medium #ccc;
+  height: 20em;
+  display: table;
+  max-height: 20em;
+}
+
+.upload-image-body{
+  margin-top: 3em;
+}
+
+.image-preview span{
+  color: #999;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a.btn{
+  background-color: #b8762e;
+  color: #fff;
+}
+
+input{
+  margin-bottom: 4px;
+}
+.progress {
+  position:relative;
+  border: 1px solid #ddd;
+  padding: 1px;
+  border-radius: 3px;
+}
+
+.bar {
+  background-color: #B4F5B4;
+  width:0%;
+  height:20px;
+  border-radius: 3px;
+}
+
+.percent {
+  position:absolute;
+  display:inline-block;
+  top:0px;
+  left:48%;
+}
+
+.gallery-thumbnail{
+  height: 10em;
+  margin-bottom: 1em;
+}
+
+.gallery-thumbnail img{
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  border: solid thin #999;
+  -webkit-transition: opacity 1s; /* Safari */
+  transition: opacity 1s;
+}
+
+.gallery-thumbnail img:hover{
+  opacity: 0.7;
+}
+
+.gallery-thumbnail a:hover{
+  text-decoration: none;
+}
+
+.delete-image-button{
+  color: #999;
+  display: none;
+}
+
+.gallery-pane {
+  margin-top: 1em;
+}

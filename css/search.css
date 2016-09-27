@@ -1,0 +1,64 @@
+.search-page {
+  margin-top: 8rem;
+}
+
+.search-form .input-group input{
+  height: 4.98rem;
+}
+
+.search-header {
+  border-bottom: solid 0.3rem #b8762e;
+  border-top: solid 0.3rem #b8762e;
+  padding: 0.4rem 0 0.4rem 0;
+  margin-top: 3rem;
+}
+
+.search-header h3 {
+  display: inline-block;
+  margin: 0 0 0 0;
+}
+
+.search-item {
+  border-bottom: solid thin #ccc;
+  padding: 2rem 0 2rem 0;
+  transition: opacity 0.4s;
+}
+
+.search-item:hover {
+  opacity: 0.6;
+}
+
+.search-item > a {
+  color: #000;
+}
+
+.search-item > a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.search-item-image {
+  margin-right: 1rem;
+  float: left;
+}
+
+.search-item-body {
+  float: left;
+}
+
+.search-item-body .company-title {
+  margin-bottom: 3rem;
+}
+
+.advanced-search-form .col-md-6{
+  margin-top: 2rem;
+}
+
+.advanced-search-form h1 {
+  padding: 0;
+  margin-top: 0;
+}
+
+.advanced-search-form {
+  display: none;
+}
